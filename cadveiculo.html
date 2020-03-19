@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Cadastro de Veículo</title>
+
+   <link rel="stylesheet" href="css/estiloh.css">
+<!--uma das opçoes de add css a pag
+    <style>
+    input{
+        background-color: red;
+    }           
+</style> -->
+
+ 
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+
+<link rel="stylesheet" href="css/estiloh.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="logo.jpg" class="logo">logo</a>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="inicio.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="cadusuario.html">Cadastre-se</a>
+                    </li>
+                    <li>
+                        <a href="cadveiculo.html">Seu Carro Aqui</a>
+                    </li>
+                    <li>
+                        <a href="sobre.html">Sobre Nós</a>
+                    </li>
+                    <li>
+                        <a href="login.html">Login</a>
+                    </li>
+                </ul>
+
+                </nav>
+        </div>
+    </header>
+
+    <section>
+        
+        <form action="cadastro.html "></form>
+        <div class="jumbotron">
+            <h1 class="titulo" align="center"  >Cadastro de Veículo</h1><br>
+    
+        </div>
+
+    
+    <label>Vamos lá, aqui será feito o cadastro do seu carro.
+        mas antes vamos fazer o seu cadastro, ok! </label>
+    <br>
+    <br>
+
+    <label for="nomeCompleto"><strong>Seu Nome Completo</strong></label><br>
+    <input type="text" name="nomeCompleto" id="nomeCompleto" class="form-control" placeholder="Maria da silva">
+    <!-- <input type="submit" name="Enviar" value="Enviar"> -->
+    <br>
+
+    <label for="genero">Gênero</label><br>
+    <select name="genero" class="form-control" id="">
+        <option selected disabled>Selecione uma opção</option>
+        <option value="feminino">Feminino</option>
+        <option value="masculino">Masculino</option>
+        <option value="não binário">Não binário</option>
+        <option value="n/a">N/A</option>
+    </select>
+   
+    <br>
+    <label for="email">Email</label>   <br>
+    <input type="email" name="email" id="email"  class="form-control" placeholder="maria@hotmail.com">
+    <br>
+
+    <label for="CPF">CPF</label>   <br>
+    <input type="CPF" name="CPF" id="CPF"  class="form-control" placeholder="xxx.xxx.xxx-xx">
+    
+    <br>
+    <button type="submit">Enviar</button><br>
+    <br>    
+
+
+    <label for="senha">Senha</label><br>
+    <input type="password" name="senha" class="senha" id="senha">
+    <button type="submit">Enviar</button><br>
+    
+    <br>
+    <br>
+    <label>Aqui vem o cadastro do seu carro, vamos lá:</label>
+    <br>
+    <br>
+
+    <label for="marca">Marca</label><br>
+    <input type="marca" name="marca" class="" id="marca">
+    <br>
+    <br>
+    <label for="modelo">Modelo (com motorização)</label><br>
+    <input type="modelo" name="modelo" class="" id="modelo">
+    <br>
+    <br>
+    <label for="cor">Cor</label><br>
+    <input type="cor" name="cor" class="" id="cor">
+    <br>
+    <br>
+    <label for="ano">Ano</label><br>
+    <input type="ano" name="ano" class="" id="ano">
+    <br>
+
+    <br>
+    <br>
+    <label for="extra">O veículo possui algum extra? (não original de fábrica)</label><br>
+    <label for="blindado"><input type="checkbox" name="extra" value="blindado" id="blindado">Blindado</label><br>
+    <label for="drama"><input type="checkbox" name="extra" value="som" id="som">Som</label><br>
+    <label for="drama"><input type="checkbox" name="extra" value="alarme" id="alarme">Alarme</label><br>
+    <label for="drama"><input type="checkbox" name="extra" value="fárol" id="fárol">Fárol de xenon ou led</label><br>
+
+    <br>
+    <button type="submit">Enviar</button><br>
+
+    <br><a href="https://www.w3schools.com/html/html_form_input_types.asp"> Saiba Mais Sobre Inputs</a>
+    <br>
+
+    <label for="comentario">Comentario sobre seu carro:</label><br>
+    <textarea name="comentario" id="comentario" class="form-control" cols="30" rows="3">Descreva aqui um pouco das condições do carro.</textarea>
+    <br>
+    <button type="submit" class="btn btn-primary" >Enviar</button>
+    <button type="reset" class="btn btn-secundary" >Limpar</button>
+</section>
+     <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+  crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Cadastro do usuario</title>
+
+<!--uma das opçoes de add css a pag
+    <style>
+    input{
+        background-color: red;
+    }           
+</style> -->
+
+ 
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+
+<link rel="stylesheet" href="css/estiloh.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="logo.jpg" class="logo">logo</a>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="inicio.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="cadusuario.html">Cadastre-se</a>
+                    </li>
+                    <li>
+                        <a href="cadveiculo.html">Seu Carro Aqui</a>
+                    </li>
+                    <li>
+                        <a href="sobre.html">Sobre Nós</a>
+                    </li>
+                    <li>
+                        <a href="login.html">Login</a>
+                    </li>
+                </ul>
+
+                </nav>
+        </div>
+       
+    </header>
+    <section>
+        
+        <form action="cadastro.html "></form>
+        <div class="jumbotron">
+            <h1 class="titulo" align="center"  >Cadastro de Usuario</h1><br>
+    
+        </div>
+
+    
+    <label for="nomeCompleto"><strong>Nome Completo</strong></label><br>
+    <input type="text" name="nomeCompleto" id="nomeCompleto" class="form-control" placeholder="Maria da silva">
+    <!-- <input type="submit" name="Enviar" value="Enviar"> -->
+    <button type="submit">Enviar</button><br>
+
+ 
+    <label for="email">Email</label>   <br>
+    <input type="email" name="email" id="email"  class="form-control" placeholder="maria@hotmail.com">
+    <button type="submit">Enviar</button><br>
+ 
+    
+    <label for="senha">Senha</label><br>
+    <input type="password" name="senha" class="form-control" id="senha">
+    <button type="submit">Enviar</button><br>
+
+    <label for="cinema">Você já foi ao cinema este ano?</label><br>
+    <label for="sim"><input type="radio" name="cinema" id="sim" value="sim"> Sim </label>
+    <label for="nao"><input type="radio" name="cinema" id="nao" value="nao"> Não </label>
+    <button type="submit">Enviar</button><br>
+
+    <label for="generoFilme">selecione seus gêneros preferidos: </label><br>
+    <label for="drama"><input type="checkbox" name="generoFilme" value="drama" id="drama">Drama</label><br>
+    <label for="acao"><input type="checkbox" name="generoFilme" value="acao" id="acao">Ação</label><br>
+    <label for="comedia"><input type="checkbox" name="generoFilme" value="comedia" id="comedia">Comédia</label><br>
+    <label for="romance"><input type="checkbox" name="generoFilme" value="romance" id="romance" checked>Romance</label><br>
+    <button type="submit">Enviar</button><br>
+
+
+    <label for="genero">Gênero</label><br>
+    <select name="genero" class="form-control" id="">
+        <option selected disabled>Selecione uma opção</option>
+        <option value="feminino">Feminino</option>
+        <option value="masculino">Masculino</option>
+        <option value="não binário">Não binário</option>
+        <option value="n/a">N/A</option>
+    </select>
+
+    <br><button type="submit">Enviar</button><br>
+
+    <br><a href="https://www.w3schools.com/html/html_form_input_types.asp"> Saiba Mais Sobre Inputs</a>
+    <br>
+
+    <label for="comentario">Comentario</label><br>
+    <textarea name="comentario" id="comentario" class="form-control" cols="30" rows="3">Aqui um texto padrao</textarea>
+    <br>
+    <button type="submit" class="btn btn-primary" >Enviar</button>
+    <button type="reset" class="btn btn-secundary" >Limpar</button>
+</section>
+     <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+  crossorigin="anonymous"></script>
+</body>
+
+</html>
